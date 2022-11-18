@@ -175,7 +175,7 @@ tomli==2.0.1 \
 types-awscrt==0.13.14 \
     --hash=sha256:39a69df579036fa5c390c5721a9470cb8a34e1dc216c38198f83e42d5c62f3be \
     --hash=sha256:786b99c86833bede6e848ef91d274c0ea97caad8c5fba9d9f61c05564ad56633
-    # via botocore-stubs
+    # via types-s3transfer
 types-babel==2.10.0 \
     --hash=sha256:9b9396c79839f294aa341d74e97fb309f9e3a3700f521c345487d49fb1c49116 \
     --hash=sha256:c1e329fa1fb4b24faae333d30e38227e92a8e0477fc179100c001acba1d858c6
@@ -226,9 +226,9 @@ types-requests==2.28.8 \
     --hash=sha256:7a9f7b152d594a1c18dd4932cdd2596b8efbeedfd73caa4e4abb3755805b4685 \
     --hash=sha256:b0421f9f2d0dd0f8df2c75f974686517ca67473f05b466232d4c6384d765ad7a
     # via -r requirements/lint.in
-types-s3transfer==0.6.0.post4 \
-    --hash=sha256:0c45331bfd0db210f5043efd2bc3ecd4b3482a02c28faea33edf719b6be38431 \
-    --hash=sha256:78f9ea029fedc97e1a5d323edd149a827d4ab361d11cd92bb1b5f235ff84ba72
+types-s3transfer==0.6.0.post5 \
+    --hash=sha256:2cf1e07cf4d1a5a2a68d89c654f45d9c3b678d39f7fe03a6f36903b6dbd3bcbc \
+    --hash=sha256:cfcbee11c16d60af3feb3dbffea3a85b32129235b562912dece310a45ae83a2c
     # via boto3-stubs
 types-setuptools==64.0.0 \
     --hash=sha256:ccf621e6bce09f9b6dee57e81ce3e6878e3dc795395ae0b749deb340198e288b \
@@ -322,6 +322,5 @@ setuptools==64.0.1 \
     --hash=sha256:378dcbfcc78b81432934fbd684ece21a82cd4b135315698732f7c8a4b97f81a9 \
     --hash=sha256:7d9ae33bf128569f460a0745e87072a1996f33c9180316c20cc08b130ce816a6
     # via
-    #   zope-event
     #   zope-interface
     #   zope-schema
