@@ -200,9 +200,9 @@ types-itsdangerous==1.1.6 \
     --hash=sha256:21c6966c10e353a5d35d36c82aaa2c5598d3bc32ddc8e0591276da5ad2e3c638 \
     --hash=sha256:aef2535c2fa0527dcce244ece0792b20ec02ee46533800735275f82a45a0244d
     # via -r requirements/lint.in
-types-passlib==1.7.7 \
-    --hash=sha256:3a5f7e8cbe563ce71717a0fd92e25223c263418ffcaae61643b9bc1f701835cd \
-    --hash=sha256:49fae3bb06f444fd452df1b1cdb584d592cf4086f4ece38166aa47efc95cff5a
+types-passlib==1.7.7.7 \
+    --hash=sha256:1465bfcbc24038e1ac76b9a710f9d45c0d5864d26945864fff694965d8723262 \
+    --hash=sha256:8db6199a7a7828db7d5adbf63174bd9a05290be52f2364e3c2acc1d47383454a
     # via -r requirements/lint.in
 types-psycopg2==2.9.19 \
     --hash=sha256:1e9e2e1445fd54a6c011047261471d344e54a929786e72a552f2e3776b65c0ee \
