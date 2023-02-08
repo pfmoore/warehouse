@@ -123,9 +123,9 @@ six==1.16.0 \
     # via
     #   ddsketch
     #   ddtrace
-tenacity==8.0.1 \
-    --hash=sha256:43242a20e3e73291a28bcbcacfd6e000b02d3857a9a9fff56b297a27afdc932f \
-    --hash=sha256:f78f4ea81b0fabc06728c11dc2a8c01277bfc5181b321a4770471902e3eb844a
+tenacity==8.2.0 \
+    --hash=sha256:a43bcd8910406e0884ca0db3db7bed581f389c1d05165e992a1ddabfc81df05e \
+    --hash=sha256:b723061a78ed0f4524190eae321d3d84100227d51c5677035b6615d91895e0d6
     # via ddtrace
 
 # The following packages are considered to be unsafe in a requirements file:
