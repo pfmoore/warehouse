@@ -335,9 +335,7 @@ datadog==0.44.0 \
 deprecated==1.2.13 \
     --hash=sha256:43ac5335da90c31c24ba028af536a91d41d53f9e6901ddb021bcc572ce44e38d \
     --hash=sha256:64756e3e14c8c5eea9795d93c524551432a0be75629f8f29e67ab8caf076c76d
-    # via
-    #   limits
-    #   redis
+    # via limits
 disposable-email-domains==0.0.79 \
     --hash=sha256:575dc0247355b153f0b092b70bd49f26d89d4d0b3eb555eb6be7988213eed1e7 \
     --hash=sha256:893ebd1076581c30dd3c19e104f83f0866200a1e9efdb6e4824e98a0811cfe32
@@ -883,7 +881,6 @@ packaging==21.3 \
     #   -r requirements/main.in
     #   google-cloud-bigquery
     #   limits
-    #   redis
 paginate==0.5.6 \
     --hash=sha256:5e6007b6a9398177a7e1648d04fdd9f8c9766a1a945bceac82f1929e8c78af2d
     # via
@@ -1122,9 +1119,9 @@ readme-renderer[md]==37.0 \
     --hash=sha256:07b7ea234e03e58f77cc222e206e6abb8f4c0435becce5104794ee591f9301c5 \
     --hash=sha256:9fa416704703e509eeb900696751c908ddeb2011319d93700d8f18baff887a69
     # via -r requirements/main.in
-redis==4.3.4 \
-    --hash=sha256:a52d5694c9eb4292770084fa8c863f79367ca19884b329ab574d5cb2036b3e54 \
-    --hash=sha256:ddf27071df4adf3821c4f2ca59d67525c3a82e5f268bed97b813cb4fabf87880
+redis==4.5.1 \
+    --hash=sha256:1eec3741cda408d3a5f84b78d089c8b8d895f21b3b050988351e925faf202864 \
+    --hash=sha256:5deb072d26e67d2be1712603bfb7947ec3431fb0eec9c578994052e33035af6d
     # via
     #   -r requirements/main.in
     #   celery-redbeat
