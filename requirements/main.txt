@@ -55,9 +55,9 @@ automat==20.2.0 \
     --hash=sha256:7979803c74610e11ef0c0d68a2942b152df52da55336e0c9d58daf1831cbdf33 \
     --hash=sha256:b6feb6455337df834f6c9962d6ccf771515b7d939bca142b29c20c2376bc6111
     # via -r requirements/main.in
-babel==2.10.3 \
-    --hash=sha256:7614553711ee97490f732126dc077f8d0ae084ebc6a96e23db1482afabdb2c51 \
-    --hash=sha256:ff56f4892c1c4bf0d814575ea23471c230d544203c7748e8c68f0089478d48eb
+babel==2.12.1 \
+    --hash=sha256:b4246fb7677d3b98f501a39d43396d3cafdc8eadb045f4a31be01863f655c610 \
+    --hash=sha256:cc2d99999cd01d44420ae725a21c9e3711b3aadc7976d6147f622d8581963455
     # via -r requirements/main.in
 bcrypt==3.2.2 \
     --hash=sha256:2b02d6bfc6336d1094276f3f588aa1225a598e27f8e3388f4db9948cb707b521 \
@@ -1115,9 +1115,7 @@ python-slugify==6.1.2 \
 pytz==2022.2 \
     --hash=sha256:bc824559e43e8ab983426a49525079d186b25372ff63aa3430ccd527d95edc3a \
     --hash=sha256:d9b245e63af49c4e51afdec5402f56b99c0cb483a84a12bb8b7db980386baade
-    # via
-    #   babel
-    #   celery
+    # via celery
 readme-renderer[md]==37.0 \
     --hash=sha256:07b7ea234e03e58f77cc222e206e6abb8f4c0435becce5104794ee591f9301c5 \
     --hash=sha256:9fa416704703e509eeb900696751c908ddeb2011319d93700d8f18baff887a69
